@@ -29,11 +29,11 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-        <TextBlock Text="Elysium"
-                   VerticalAlignment="Center"
-                   HorizontalAlignment="Center"
-                   Foreground="White"
-                   FontSize="22"/>
+            <TextBlock Text="Elysium"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Foreground="White"
+                       FontSize="22"/>
 
             <StackPanel Grid.Row="1">
                 <RadioButton Content="Home"
@@ -58,12 +58,12 @@
             </StackPanel>
 
             <TextBox Width="250"
-                       Height="40"
-                       VerticalAlignment="Center"
-                       HorizontalAlignment="Left"
-                       Margin="5"
-                       Grid.Column="1" 
-                        Style="{StaticResource ModernTextbox}"/>
+                     Height="40"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Left"
+                     Margin="5"
+                     Grid.Column="1" 
+                     Style="{StaticResource ModernTextbox}"/>
 
             <Grid Grid.Column="1"
                   Grid.Row="0"
@@ -98,7 +98,7 @@
                         HorizontalAlignment="Stretch"
                         CornerRadius="10"/>
             </Grid>
-            
+
             <ContentControl Grid.Row="1"
                             Grid.Column="1"
                             Margin="10"
